@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  @apply tracking-widest;
+}
+body{
+  @apply bg-neutral-900 p-0 ;
+}
+
+header ul li a{
+  @apply relative
+}
+header ul li a::before{
+  content: '';
+  @apply w-0 h-1 bg-sky-600 absolute -bottom-2 left-0  transition-all duration-300 ease-in
+}
+
+
+header ul li a.active::before{
+  @apply w-full
+}
