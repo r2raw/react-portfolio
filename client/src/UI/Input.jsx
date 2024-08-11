@@ -18,7 +18,7 @@ function Input({ children, name, textArea, ...props }) {
     <div className="relative" id="input-group">
       {content}
       <label
-        className={`absolute  top-1/2 -translate-y-[210%] text-sm left-4 peer-placeholder-shown:text-md peer-placeholder-shown:-translate-y-1/2 transition-all duration-500 ease-in not text-gray-500`}
+        className={`absolute  top-1/2 -translate-y-[210%] text-sm left-4 peer-placeholder-shown:text-md peer-placeholder-shown:-translate-y-1/2 transition-all duration-500 ease-in not text-gray-500 pointer-events-none`}
         id="input-label"
       >
         {children}

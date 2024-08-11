@@ -29,7 +29,7 @@ function Resume() {
   return (
     <main className="px-10">
       <Header resume />
-      <div className=" flex justify-center mt-40">
+      <div className=" flex justify-center mt-40 min-h-[80dvh]">
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
           <Viewer
             fileUrl={myresume}

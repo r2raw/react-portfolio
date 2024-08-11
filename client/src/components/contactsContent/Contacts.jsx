@@ -6,8 +6,8 @@ import { SiGmail } from "react-icons/si";
 import { motion, stagger } from "framer-motion";
 function Contacts() {
   return (
-    <section className="text-gray-400 h-screen flex flex-col  justify-center px-10 md:px-40"  id='contacts'>
-      <h1 className="text-4xl text-left mb-16 text-sky-600 font-bold">
+    <section className="text-gray-400 h-screen flex flex-col  justify-center md:px-40"  id='contacts'>
+      <h1 className="text-2xl text-center md:text-4xl md:text-left mb-16 text-sky-600 font-bold">
         CONTACTS
       </h1>
       <div className="grid lg:flex lg:justify-between gap-10 text-left">
@@ -27,7 +27,7 @@ function Contacts() {
                 initial="hidden"
                 whileInView="visible"
                 exit="hidden"
-                className="bg-sky-600 flex gap-4 text-[2rem] md:text-[2.5rem] lg:text-[3rem] items-center justify-start px-6 rounded-md"
+                className=" bg-sky-600 flex gap-4 text-[2rem] md:text-[2.5rem] lg:text-[3rem] items-center justify-start px-6 rounded-md"
               >
                 {social.icon}
                 {social.title}

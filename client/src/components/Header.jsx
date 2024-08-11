@@ -14,13 +14,15 @@ export default function Header({ resume }) {
     <>
       <motion.header
         variants={{
-          hidden: { y: -100, height: 0, opacity: 0 },
-          visible: { y: 1, height: "auto", opacity: 1 },
+          hidden: { y: -100, opacity: 0 },
+          visible: { y: 1, opacity: 1 },
         }}
         animate={openMenu ? "visible" : isBigScreen ? "visible" : "hidden"}
         exit="hidden"
         transition={{
-          duration: 1,
+          duration: 0.5,
+          bounce: 1,
+          stiffness: 100,
           type: "spring",
         }}
         className={`fixed top-0 left-0 py-8 px-40 w-full bg-neutral-900 ${

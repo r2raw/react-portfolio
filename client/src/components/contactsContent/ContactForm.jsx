@@ -89,8 +89,9 @@ function ContactForm() {
         </Input>
       </div>
       <motion.button
-      whileHover={{scale: [ 1.12, 1.1], color: 'white'}}
-      transition={{duration: 0.3, stiffness: 100,}}
+      whileHover={{scale: [ 1.12,1], color: 'white'}}
+      exit={{scale: 1}}
+      transition={{duration: 0.1, stiffness: 100,}}
       
         className="bg-sky-600 text-neutral-800 w-full py-4 text-xl font-bold rounded-md mt-4"
         disabled={submitting}
