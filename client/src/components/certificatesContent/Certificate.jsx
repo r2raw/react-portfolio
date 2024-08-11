@@ -80,7 +80,7 @@ export default function Certificate() {
           </Modal>
         )}
       </AnimatePresence>
-      <section className=" text-gray-400 h-screen flex flex-col  justify-center  px-10 md:px-40"  id='certificates'>
+      <section className=" text-gray-400 h-screen flex flex-col  justify-center  md:px-40"  id='certificates'>
         <h1 className="text-2xl text-center md:text-4xl md:text-left mb-16 text-sky-600 font-bold">
           CERTIFICATES
         </h1>

@@ -3,7 +3,7 @@ import VexImages from "./VexImages";
 export default function About() {
 
   return (
-    <section className="text-gray-400 flex flex-col  justify-center py-20 px-10 md:px-40 " id='about'>
+    <section className="text-gray-400 flex flex-col  justify-center py-20  md:px-40 " id='about'>
       <h1 className="text-2xl md:text-4xl md:text-left mb-16 text-sky-600 font-bold">
         ABOUT
       </h1>
