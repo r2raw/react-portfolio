@@ -115,7 +115,7 @@ export default function Certificate() {
                   className="flex flex-col px-4"
                 >
                   <img
-                    className="h-96 md:h-72 lg:h-96 "
+                    className="h-96 md:h-72 lg:h-96 cursor-pointer "
                     src={cert.imgSrc}
                     alt={cert.title}
                   />

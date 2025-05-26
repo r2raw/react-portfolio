@@ -23,6 +23,11 @@ import vex2 from "./assets/vex2.jpg";
 import vex3 from "./assets/vex3.jpg";
 import vex4 from "./assets/vex4.jpg";
 import vex5 from "./assets/vex5.jpg";
+import dallas1 from "./assets/dallas1.jpg";
+import dallas2 from "./assets/dallas2.jpg";
+import dallas3 from "./assets/dallas3.jpg";
+import dallas4 from "./assets/dallas4.jpg";
+import dallas5 from "./assets/dallas5.jpg";
 export const techImages = [
   {
     id: 1,
@@ -161,6 +166,45 @@ export const vexImages = [
   {
     id: 5,
     imgSrc: vex5,
+    title: "vex5",
+    rotate: "rotate-0",
+    translate: "translate-x-0 ",
+  },
+];
+
+
+export const dallasImages = [
+  {
+    id: 1,
+    imgSrc: dallas1,
+    title: "vex1",
+    rotate: "-rotate-60",
+    translate: "-translate-x-40 scale-75",
+  },
+  {
+    id: 2,
+    imgSrc: dallas2,
+    title: "vex2",
+    rotate: "-rotate-30",
+    translate: "-translate-x-20 -translate-y-40 scale-75",
+  },
+  {
+    id: 3,
+    imgSrc: dallas3,
+    title: "vex3",
+    rotate: "rotate-60",
+    translate: "translate-x-40 scale-75",
+  },
+  {
+    id: 4,
+    imgSrc: dallas4,
+    title: "vex4",
+    rotate: "rotate-30",
+    translate: "translate-x-20 -translate-y-40 scale-75",
+  },
+  {
+    id: 5,
+    imgSrc: dallas5,
     title: "vex5",
     rotate: "rotate-0",
     translate: "translate-x-0 ",

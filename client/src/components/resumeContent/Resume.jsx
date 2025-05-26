@@ -1,6 +1,6 @@
 import {useState, useRef} from "react";
 import Header from "../Header";
-import myresume from "../../assets/MyResume2024.pdf";
+import myresume from "../../assets/MarteRes(2025) (1).pdf";
 import { Worker } from "@react-pdf-viewer/core";
 import { Viewer } from "@react-pdf-viewer/core";
 
